@@ -1,0 +1,35 @@
+﻿@page "/CreateStudent"
+@using BlazorServer_ExamA22.Data
+@inject StudentService studentService
+
+<h3>CreateStudent</h3>
+<form @onsubmit="SubmitForm">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" @bind="newStudent.Name" />
+    </div>
+    <div class="form-group">
+        <label for="programme">Programme:</label>
+        <input type="text" class="form-control" id="programme" @bind="newStudent.Programme" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+@code {
+    private Student newStudent = new Student();
+
+    private void SubmitForm()
+    {
+        studentService.AddStudent(newStudent);
+        newStudent = new Student(); 
+    }
+    private List<Student> _list;
+
+    protected override void OnInitialized()
+    {
+        _list = studentService.GetAll();
+    }
+}
+}

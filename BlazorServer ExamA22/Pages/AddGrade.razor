@@ -1,0 +1,74 @@
+﻿@page "/AddGrade"
+@using BlazorServer_ExamA22.Data
+@using BlazorServer_ExamA22.Models
+
+@inject StudentService studentService
+@inject GradeService gradeService
+
+
+<h3>AddGrade</h3>
+<!-- Dropdown for selecting a student -->
+<div>
+   <label for="student">Select Student:</label>
+   <select id="student" @bind="selectedStudentId">
+       @foreach (var student in _students)
+       {
+           <option value="@student.Id">@student.Name</option>
+       }
+   </select>
+</div>
+
+
+<!-- Dropdown for selecting a grade -->
+<div>
+   <label for="grade">Select Grade:</label>
+   <select id="grade" @bind="selectedGrade">
+       @foreach (var grade in validGrades)
+       {
+           <option value="@grade">@grade</option>
+       }
+   </select>
+</div>
+
+
+<!-- Input field for the course code -->
+<div>
+   <label for="courseCode">Course Code:</label>
+   <input id="courseCode" @bind="courseCode" />
+</div>
+
+
+<!-- Button to add the grade -->
+<button @onclick="AddGradeToStudent">Add Grade</button>
+
+@code {
+    private List<Student> _students = new List<Student>();
+    private List<int> validGrades = new List<int> { -3, 0, 2, 4, 7, 10, 12 };
+    private int selectedStudentId;
+    private int selectedGrade;
+    private string courseCode;
+
+    protected override void OnInitialized()
+    {
+        _students = studentService.GetAll();
+    }
+
+    private void AddGradeToStudent()
+    {
+        if (selectedStudentId > 0 && validGrades.Contains(selectedGrade))
+        {
+            var grade = new GradeInCourse
+            {
+                StudentId = selectedStudentId,
+                Grade = selectedGrade,
+                CourseCode = courseCode
+            };
+            
+            gradeService.AddGradeToStudent(grade);
+
+            selectedStudentId = 0;
+            selectedGrade = 0;
+            courseCode = string.Empty;
+        }
+    }
+}

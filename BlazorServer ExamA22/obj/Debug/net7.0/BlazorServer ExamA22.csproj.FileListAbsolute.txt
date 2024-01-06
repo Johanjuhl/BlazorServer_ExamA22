@@ -1,0 +1,31 @@
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.AssemblyInfoInputs.cache
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.AssemblyInfo.cs
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.csproj.CoreCompileInputs.cache
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.RazorAssemblyInfo.cache
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.RazorAssemblyInfo.cs
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\appsettings.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.staticwebassets.runtime.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.exe
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.deps.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.runtimeconfig.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.dll
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\bin\Debug\net7.0\BlazorServer ExamA22.pdb
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets\msbuild.BlazorServer ExamA22.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorServer ExamA22.props
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorServer ExamA22.props
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorServer ExamA22.props
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\scopedcss\bundle\BlazorServer ExamA22.styles.css
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\scopedcss\projectbundle\BlazorServer ExamA22.bundle.scp.css
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.dll
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\refint\BlazorServer ExamA22.dll
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.pdb
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\BlazorServer ExamA22.genruntimeconfig.cache
+C:\Users\Johju\RiderProjects\BlazorServer ExamA22\BlazorServer ExamA22\obj\Debug\net7.0\ref\BlazorServer ExamA22.dll
